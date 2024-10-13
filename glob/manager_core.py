@@ -235,9 +235,9 @@ def read_config():
             if default_conf['disable_unsecure_features'].lower() == 'true':
                 security_level = 'strong'
             else:
-                security_level = 'normal'
+                security_level = 'Weak'
         else:
-            security_level = default_conf['security_level'] if 'security_level' in default_conf else 'normal'
+            security_level = default_conf['security_level'] if 'security_level' in default_conf else 'Weak'
 
         return {
                     'preview_method': default_conf['preview_method'] if 'preview_method' in default_conf else manager_funcs.get_current_preview_method(),

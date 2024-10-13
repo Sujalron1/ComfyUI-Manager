@@ -271,7 +271,7 @@ def read_config():
             'windows_selector_event_loop_policy': False,
             'model_download_by_agent': False,
             'downgrade_blacklist': '',
-            'security_level': 'normal',
+            'security_level': 'Weak',
         }
 
 

@@ -15,6 +15,86 @@
 
 
         {
+            "author": "LogicAI",
+            "title": "ComfyUI-MagicAI [UNSAFE]",
+            "reference": "https://github.com/lcolok/ComfyUI-MagicAI",
+            "files": [
+                "https://github.com/lcolok/ComfyUI-MagicAI"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES:Mask Size Calculator (MagicAI), Universal Mask Converter (MagicAI), Python Execution (MagicAI), Extract JSON From Text Node(MagicAI)\n[w/This extension allows the execution of arbitrary Python code from a workflow.]"
+        },
+        {
+            "author": "T8star1984",
+            "title": "comfyui-purgevram",
+            "reference": "https://github.com/T8star1984/comfyui-purgevram",
+            "files": [
+                "https://github.com/T8star1984/comfyui-purgevram"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES:PurgeVRAM.\nCan be added after any node to clean up vram and memory"
+        },
+        {
+            "author": "Laser-one",
+            "title": "ComfyUI-align-pose",
+            "reference": "https://github.com/Laser-one/ComfyUI-align-pose",
+            "files": [
+                "https://github.com/Laser-one/ComfyUI-align-pose"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES:align pose"
+        },
+        {
+            "author": "chenbaiyujason",
+            "title": "ComfyUI_StepFun",
+            "reference": "https://github.com/chenbaiyujason/ComfyUI_StepFun",
+            "files": [
+                "https://github.com/chenbaiyujason/ComfyUI_StepFun"
+            ],
+            "install_type": "git-clone",
+            "description": "To use stepfun's library, you need an official api that supports multimodal inputs such as video and pictures [a/https://platform.stepfun.com/request-restriction](https://platform.stepfun.com/request-restriction)"
+        },
+        {
+            "author": "attashe",
+            "title": "ComfyUI-FluxRegionAttention [WIP]",
+            "reference": "https://github.com/attashe/ComfyUI-FluxRegionAttention",
+            "files": [
+                "https://github.com/attashe/ComfyUI-FluxRegionAttention"
+            ],
+            "install_type": "git-clone",
+            "description": "Implement Region Attention for Flux model"
+        },
+        {
+            "author": "aria1th",
+            "title": "ComfyUI-SkipCFGSigmas",
+            "reference": "https://github.com/aria1th/ComfyUI-SkipCFGSigmas",
+            "files": [
+                "https://github.com/aria1th/ComfyUI-SkipCFGSigmas"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES:CFGControl_SKIPCFG"
+        },
+        {
+            "author": "PnthrLeo",
+            "title": "comfyUI-image-search",
+            "reference": "https://github.com/PnthrLeo/comfyUI-image-search",
+            "files": [
+                "https://github.com/PnthrLeo/comfyUI-image-search"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES:CloseImagesSearcher"
+        },
+        {
+            "author": "Clelstyn",
+            "title": "ComfyUI-Inpaint_with_Detailer",
+            "reference": "https://github.com/Clelstyn/ComfyUI-Inpaint_with_Detailer",
+            "files": [
+                "https://github.com/Clelstyn/ComfyUI-Inpaint_with_Detailer"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES:Masked Resize Image, Paste Masked Image, Filter And Blur Mask"
+        },
+        {
             "author": "Looking-Glass",
             "title": "LKG-ComfyUI",
             "reference": "https://github.com/Looking-Glass/LKG-ComfyUI",
@@ -86,7 +166,7 @@
         },
         {
             "author": "kylegrover",
-            "title": "ComfyUI-MochiWrapper [UNSAFE]",
+            "title": "comfyui-python-cowboy [UNSAFE]",
             "reference": "https://github.com/kylegrover/comfyui-python-cowboy",
             "files": [
                 "https://github.com/kylegrover/comfyui-python-cowboy"
@@ -233,16 +313,6 @@
             ],
             "install_type": "git-clone",
             "description": "here put custom input nodes such as text,video...\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "dafeng012",
-            "title": "comfyui-imgmake [WIP]",
-            "reference": "https://github.com/dafeng012/comfyui-imgmake",
-            "files": [
-                "https://github.com/dafeng012/comfyui-imgmake"
-            ],
-            "install_type": "git-clone",
-            "description": "This project is inspired by [a/https://github.com/s9roll7/ebsynth_utility](https://github.com/s9roll7/ebsynth_utility)\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "fablestudio",
@@ -1486,17 +1556,6 @@
             ],
             "install_type": "git-clone",
             "description": "Nodes:Add_text_by_mask.[w/This custom node cannot be installed simultaneously as it has the same repository name as MarkoCa1/ComfyUI-Text.]"
-        },
-        {
-            "author": "yushan777",
-            "title": "Y7 Nodes for ComfyUI",
-            "id": "y7nodes",
-            "reference": "https://github.com/yushan777/ComfyUI-Y7Nodes",
-            "files": [
-                "https://github.com/yushan777/ComfyUI-Y7Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Nodes:Count_Tokens_(Y7)"
         },
         {
             "author": "norgeous",
